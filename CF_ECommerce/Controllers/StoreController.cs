@@ -8,6 +8,8 @@ namespace CF_ECommerce.Controllers
 {
     public class StoreController : Controller
     {
+
+
         public ActionResult Index()
         {
             return View();

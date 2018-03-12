@@ -1,8 +1,8 @@
-﻿CREATE DATABASE Project;
+﻿CREATE DATABASE CF_ECommerce;
 
 GO
 
-USE Project;
+USE CF_ECommerce;
 
 GO
 
