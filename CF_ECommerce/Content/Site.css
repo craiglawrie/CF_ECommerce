@@ -1,5 +1,4 @@
 ﻿body {
-    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -7,6 +6,7 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    position: relative;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,4 +21,66 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+div.nav-text * {
+    color: white!important;
+}
+
+div.navbar {
+    display:block;
+    background-color: rgb(41, 47, 81);
+    border-radius: 0;
+    margin-bottom: 1rem;
+}
+
+.nav-img {
+    height: 80px;
+    box-sizing: content-box;
+}
+
+.navbar-toggle {
+    position: absolute;
+    margin: 0;
+    padding: 1rem;
+    right: 1rem;
+    top: 2rem;
+    border: solid white 1px!important;
+}
+
+.no-pad {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    position: relative;
+}
+
+footer div {
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.foot-img {
+    display: none;
+    height: 80px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        line-height: 50px;
+    }
+
+    footer div {
+        text-align: right;
+    }
+
+    .foot-img {
+        display: inline-block;
+    }
 }
